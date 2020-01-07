@@ -1,10 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Hello Coursera</title>
-</head>
-<h1> Hllo Coursera </h1>
-<body>
+<meta charset="utf-8">
+<meta name = "viewport" content="width = device-width, initial-scale = 1">
+<style>
 
+	*{
+		font-family: Helvetica;
+		box-sizing: border-box;
+	}
+	
+	section{
+		background-color: gray;
+	}
+	h1{
+		font-size: 175%;
+		text-align: center;
+
+	}
+
+	.row{
+		width: 100%;
+	}
+	p{
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-top: 15px;
+		width: 90%;
+	
+	}
+	
+	section > h4{
+		position: relative;
+		background-color: pink;
+		text-align: center;
+		font-size: 125%;
+		width: 50%;
+		left: 50%;
+		border: 1px solid black;
+		margin-top: 0;
+		
+	}
+@media (min-width: 992px){
+	 .col-lg-4{
+	 	margin: 4%;
+		float: left;
+		width: 25%;
+		border: 1px solid black; 
+		padding-left: 10px;
+		padding-bottom: 15px;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-4{
+	 
+		float: left;
+		border: 1px solid black; 
+		padding-left: 10px;
+		padding-bottom: 15px;
+	}
+	#section1, #section2 {
+		margin: 5%;
+		float: left;
+		width: 40%;
+		margin-bottom: 10px;
+	}
+	#section3 {
+		margin-top: 10px;
+		margin-left: 5%;
+		clear: both;
+		width: 90%;
+	}
+}
+@media (max-width: 767px){
+	.col-sm-4{
+	 	margin: 10px;
+		border: 1px solid black; 
+		padding-left: 10px;
+		padding-bottom: 15px;
+		clear: both;
+	}
+}
+</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class = "row">
+	<section id = "section1" class = "col-lg-4 col-md-4 col-sm-4">
+		<h4>Sushi</h4>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</section>
+	<section id = "section2" class = "col-lg-4 col-md-4 col-sm-4"> 
+		<h4>Beef</h4>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</section>
+	<section id = "section3" class = "col-lg-4 col-md-4 col-sm-4">
+		<h4 >Chicken</h4>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</section>
+</div>
 </body>
 </html>
