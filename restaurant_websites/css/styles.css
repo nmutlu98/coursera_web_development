@@ -4,17 +4,23 @@ body{
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
-#header-nav{
+.navbar{
+	background-color: #f6b319;
+}
+.header-nav{
 	background-color: #f6b319;
 	border-radius: 0;
 	border:0;
+	margin-right: -15px;
+	margin-left: -15px;
 
 }
 #logo-img{
 	background: url('../img/logo.png') no-repeat;
 	width: 150px;
 	height:150px;
-	margin: 10px 15px 10px 0;
+	margin: 0 15px 10px 0;
+	float: left;
 }
 .navbar-brand{
 	padding-top: 25px;
@@ -22,7 +28,7 @@ body{
 .navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size:1.5em;
+	font-size:1.2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -30,6 +36,48 @@ body{
 	margin-bottom: 0;
 	line-height: .75;
 }
+.navbar-header a{
+	float: left;
+}
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
+}
+.container > .navbar-brand{
+	width: 60%;
+	text-align: left;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-size: 24px;
+	color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
+.navbar-nav a:hover{
+	background-color: #fff;
+}
+.nav-item > a{
+	font-size: 24px;
+	color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navbar-nav > li {
+	margin: 5px;
+	float: right;
+}
+.nav-item > a > .sub-exp{
+	color:#557c3e;
+	font-style: italic;
+	font-size: 20px;
+}
+.navbar-collapse > ul {
+	margin-top: 10px;
+}
+#navbarNavDropdown{
+	padding-right: 0;
+	text-align: right;
+	margin-block-end: 0;
 }
